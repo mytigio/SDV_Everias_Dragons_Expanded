@@ -19,7 +19,7 @@ If you have my other mod (Dwarven Expansion), this mod has several additional fe
 - Dragons go in the Cavern instead of a normal Barn.
 - Dragons can be birthed from Dragon Eggs in Caverns.
 - Dragons are no longer sold at Marnie's.  Instead you can find Dragon Eggs occasionally for sale at the Adventurer's Guild which can then be hatched in a Cavern.
-- Dragon Eggs can be used to create decorative fabrige eggs in the Jewelry Maker.
+- Dragon Eggs can be used to create decorative faberge egg in the Jewelry Maker.
 - Restores a sell price for Dragons (Everia's Dragons for 1.6 removed the sell price)
 - Dragon Eggs (any egg really, but traditionally Dragon Eggs) and Dwarven Spirits can be made into a Foaming Gin Dragon
 

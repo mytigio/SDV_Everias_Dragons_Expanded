@@ -1,0 +1,21 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/animals.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Machines/machines.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Objects/objects.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Shops/shops.json"
+        }
+    ]
+}

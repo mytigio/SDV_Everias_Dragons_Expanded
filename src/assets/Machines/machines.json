@@ -1,0 +1,306 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)24",
+                "OutputRules"
+            ],
+            "Entries": {
+                "Dragon_Mayonnaise": {
+                    "Id": "Dragon_Mayonnaise",
+                    "Triggers": [
+                        {
+                            "Id": "DragonEgg",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "{{ModId}}_DragonEgg"
+                            ],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Dragon_Mayo",
+                            "ItemId": "{{ModId}}_Dragon_Mayonnaise",
+                            "MinStack": "1",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": "180"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)mytigio.dwarven_expansion_JewelryMaker",
+                "OutputRules"
+            ],
+            "Entries": {
+                "Faberge_Dragon_Eggs": {
+                    "Id": "Faberge_Dragon_Eggs",
+                    "Triggers": [
+                        {
+                            "Id": "DragonEgg",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "{{ModId}}_DragonEgg"
+                            ],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Aqua",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Aqua",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Aqua",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Blue",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Blue",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Blue",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Chestnut",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Chestnut",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Chestnut",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Chocolate",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Chocolate",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Chocolate",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Crimson",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Crimson",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Crimson",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Emerald",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Emerald",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Emerald",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Forest",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Forest",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Forest",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Lavender",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Lavender",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Lavender",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Rose",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Rose",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Rose",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Saffron",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Saffron",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Saffron",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Shadow",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Shadow",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Shadow",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "Violet",
+                            "ItemId": "{{ModId}}_FabergeDragonEgg.Violet",
+                            "MinStack": "1",
+                            "CopyPrice": true,
+                            "CopyQuality": true,
+                            "Condition": "ITEM_ID Input (O){{ModId}}_DragonEgg.Violet",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "increase_base_for_gold_bar",
+                                    "Modification": "Add",
+                                    "Amount": 250
+                                },
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3.00
+                                }
+                            ]
+                        }
+                    ],
+                    "UseFirstValidOutput": true,
+                    "DaysUntilReady": "7"
+                }
+            },
+            "When": {
+                "HasMod": "mytigio.dwarven_expansion"
+            }
+        }
+    ]
+}

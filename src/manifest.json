@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[CP] Everia's Dragons Expanded",
+	"Author": "mytigio",
+	"Version": "1.0.0",
+	"Description": "Adds Dragon Eggs, new production and fixes minor bugs for Everia's Dragons.",
+	"UniqueID": "mytigio.everias_dragons_expanded",
+	"MinimumApiVersion": "2.11.2",
+	"UpdateKeys": ["Nexus:???"],
+	"Dependencies": [
+		{
+			"UniqueID": "Renesh.EveriaDragons",
+			"IsRequired": true
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

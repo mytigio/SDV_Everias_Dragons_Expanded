@@ -1,0 +1,577 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+            "FromFile": "assets/Objects/SpriteSheet.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_DragonEgg.Aqua": {
+                    "Name": "_DragonEgg.Aqua",
+                    "DisplayName": "{{i18n:DragonEgg.Aqua.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Aqua.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_cyan"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_DragonEgg.Blue": {
+                    "Name": "DragonEgg.Blue",
+                    "DisplayName": "{{i18n:DragonEgg.Blue.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Blue.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_blue"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 1
+                },
+                "{{ModId}}_DragonEgg.Chestnut": {
+                    "Name": "DragonEgg.Chestnut",
+                    "DisplayName": "{{i18n:DragonEgg.Chestnut.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Chestnut.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_brown"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 2
+                },
+                "{{ModId}}_DragonEgg.Chocolate": {
+                    "Name": "DragonEgg.Chocolate",
+                    "DisplayName": "{{i18n:DragonEgg.Chocolate.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Chocolate.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_brown"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 3
+                },
+                "{{ModId}}_DragonEgg.Crimson": {
+                    "Name": "DragonEgg.Crimson",
+                    "DisplayName": "{{i18n:DragonEgg.Crimson.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Crimson.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_dark_red"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 4
+                },
+                "{{ModId}}_DragonEgg.Emerald": {
+                    "Name": "DragonEgg.Emerald",
+                    "DisplayName": "{{i18n:DragonEgg.Emerald.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Emerald.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_green"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 5
+                },
+                "{{ModId}}_DragonEgg.Forest": {
+                    "Name": "DragonEgg.Forest",
+                    "DisplayName": "{{i18n:DragonEgg.Forest.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Forest.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_dark_green"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 6
+                },
+                "{{ModId}}_DragonEgg.Lavender": {
+                    "Name": "DragonEgg.Lavender",
+                    "DisplayName": "{{i18n:DragonEgg.Lavender.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Lavender.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_poppyseed"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 7
+                },
+                "{{ModId}}_DragonEgg.Rose": {
+                    "Name": "DragonEgg.Rose",
+                    "DisplayName": "{{i18n:DragonEgg.Rose.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Rose.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_pink"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 8
+                },
+                "{{ModId}}_DragonEgg.Saffron": {
+                    "Name": "DragonEgg.Saffron",
+                    "DisplayName": "{{i18n:DragonEgg.Saffron.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Saffron.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_sand"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 9
+                },
+                "{{ModId}}_DragonEgg.Shadow": {
+                    "Name": "DragonEgg.Shadow",
+                    "DisplayName": "{{i18n:DragonEgg.Shadow.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Shadow.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_dark_purple"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 10
+                },
+                "{{ModId}}_DragonEgg.Violet": {
+                    "Name": "DragonEgg.Violet",
+                    "DisplayName": "{{i18n:DragonEgg.Violet.DisplayName}}",
+                    "Description": "{{i18n:DragonEgg.Violet.Description}}",
+                    "Price": 300,
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "color_iridium"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 11
+                },
+                "{{ModId}}_Dragon_Mayonnaise": {
+                    "Name": "Dragon Mayonnaise",
+                    "DisplayName": "{{i18n:Dragon_Mayonnaise.DisplayName}}",
+                    "Description": "{{i18n:Dragon_Mayonnaise.Description}}",
+                    "Price": 700,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": 55,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_DragonEgg",
+                        "mayo_item",
+                        "use_reverse_name_for_sorting",
+                        "color_blue"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 32
+                },
+                "{{ModId}}_Dragon_Drop_Soup": {
+                    "Name": "Dragon Drop Soup",
+                    "DisplayName": "{{i18n:Dragon_Drop_Soup.DisplayName}}",
+                    "Description": "{{i18n:Dragon_Drop_Soup.Description}}",
+                    "Price": 400,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Edibility": 45,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "color_yellow",
+                        "{{ModId}}_Dragon_Food_Item"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 33
+                },
+                "{{ModId}}_Sunfire_Omelet": {
+                    "Name": "Sunfire Omelet",
+                    "DisplayName": "{{i18n:Sunfire_Omelet.DisplayName}}",
+                    "Description": "{{i18n:Sunfire_Omelet.Description}}",
+                    "Price": 210,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Edibility": 55,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "color_white",
+                        "food_breakfast"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 34
+                },
+                "{{ModId}}_Spicy_Dragon_Cake": {
+                    "Name": "Spicy Dragon Cake",
+                    "DisplayName": "{{i18n:Spicy_Dragon_Cake.DisplayName}}",
+                    "Description": "{{i18n:Spicy_Dragon_Cake.Description}}",
+                    "Price": 350,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Edibility": 85,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "food_bakery",
+                        "food_spicy"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 35
+                },
+                "{{ModId}}_Foaming_Gin_Dragon": {
+                    "Name": "Foaming Gin Dragon",
+                    "DisplayName": "{{i18n:Foaming_Gin_Dragon.DisplayName}}",
+                    "Description": "{{i18n:Foaming_Gin_Dragon.Description}}",
+                    "Price": 375,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "IsDrink": true,
+                    "Edibility": 20,
+                    "Buffs": [
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 36
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Love"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Like"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Neutral"
+                    ],
+                    "Value": "{{ModId}}_DragonEgg {{ModId}}_Dragon_Drop_Soup {{ModId}}_Sunfire_Omelet {{ModId}}_Spicy_Dragon_Cake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Dislike"
+                    ],
+                    "Value": "{{ModId}}_Dragon_Mayonnaise",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Hate"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_FabergeDragonEgg.Aqua": {
+                    "Name": "_FabergeDragonEgg.Aqua",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Aqua.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Aqua.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_cyan"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 16
+                },
+                "{{ModId}}_FabergeDragonEgg.Blue": {
+                    "Name": "_FabergeDragonEgg.Blue",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Blue.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Blue.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_blue"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 17
+                },
+                "{{ModId}}_FabergeDragonEgg.Chestnut": {
+                    "Name": "_FabergeDragonEgg.Chestnut",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Chestnut.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Chestnut.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_cyan"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 18
+                },
+                "{{ModId}}_FabergeDragonEgg.Chocolate": {
+                    "Name": "_FabergeDragonEgg.Chocolate",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Chocolate.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Chocolate.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_brown"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 19
+                },
+                "{{ModId}}_FabergeDragonEgg.Crimson": {
+                    "Name": "_FabergeDragonEgg.Crimson",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Crimson.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Crimson.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_dark_red"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 20
+                },
+                "{{ModId}}_FabergeDragonEgg.Emerald": {
+                    "Name": "_FabergeDragonEgg.Emerald",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Emerald.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Emerald.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_green"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 21
+                },
+                "{{ModId}}_FabergeDragonEgg.Forest": {
+                    "Name": "_FabergeDragonEgg.Forest",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Forest.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Forest.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_dark_green"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 22
+                },
+                "{{ModId}}_FabergeDragonEgg.Lavender": {
+                    "Name": "_FabergeDragonEgg.Lavender",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Lavender.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Lavender.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_poppyseed"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 23
+                },
+                "{{ModId}}_FabergeDragonEgg.Rose": {
+                    "Name": "_FabergeDragonEgg.Rose",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Rose.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Rose.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_pink"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 24
+                },
+                "{{ModId}}_FabergeDragonEgg.Saffron": {
+                    "Name": "_FabergeDragonEgg.Saffron",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Saffron.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Saffron.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_sand"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 25
+                },
+                "{{ModId}}_FabergeDragonEgg.Shadow": {
+                    "Name": "_FabergeDragonEgg.Shadow",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Shadow.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Shadow.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_dark_purple"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 26
+                },
+                "{{ModId}}_FabergeDragonEgg.Violet": {
+                    "Name": "_FabergeDragonEgg.Violet",
+                    "DisplayName": "{{i18n:FabergeDragonEgg.Violet.DisplayName}}",
+                    "Description": "{{i18n:FabergeDragonEgg.Violet.Description}}",
+                    "Price": 1650,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_FabergeDragonEgg",
+                        "mytigio.dwarven_expansion_jewelry",
+                        "not_museum_donatable",
+                        "color_iridium"
+                    ],
+                    "Texture": "Mods/EveriasDragonsExtended/ObjectSpritesheet",
+                    "SpriteIndex": 27
+                }
+            },
+            "When": {
+                "HasMod": "mytigio.dwarven_expansion"
+            }
+        }
+    ]
+}

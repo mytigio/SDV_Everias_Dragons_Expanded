@@ -1,0 +1,475 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Aqua/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Aqua.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Blue/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Blue.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Chestnut/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Chestnut.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Chocolate/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Chocolate.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Crimson/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Crimson.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Emerald/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Emerald.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Forest/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Forest.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Lavender/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Lavender.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Rose/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Rose.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Saffron/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Saffron.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Shadow/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Shadow.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/EveriasDragonsExtended/Dragons/Violet/Baby",
+            "FromFile": "assets/Animals/Baby_Dragon.Violet.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Fields": {
+                "Shadow Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Shadow"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Shadow/Baby"
+                },
+                "Lavender Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Lavender"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Lavender/Baby"
+                },
+                "Crimson Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Crimson"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Crimson/Baby"
+                },
+                "Violet Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Violet"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Violet/Baby"
+                },
+                "Rose Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Rose"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Rose/Baby"
+                },
+                "Emerald Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Emerald"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Emerald/Baby"
+                },
+                "Aqua Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Aqua"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Aqua/Baby"
+                },
+                "Saffron Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Saffron"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Saffron/Baby"
+                },
+                "Chocolate Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Chocolate"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Chocolate/Baby"
+                },
+                "Chestnut Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Chestnut"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Chestnut/Baby"
+                },
+                "Sea Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Blue"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Blue/Baby"
+                },
+                "Forest Dragon": {
+                    "EggItemIds": [
+                        "{{ModId}}_DragonEgg.Forest"
+                    ],
+                    "IncubationTime": 20160,
+                    "IncubatorParentSheetOffset": 1,
+                    "UseFlippedRightForLeft": true,
+                    "CanGetPregnant": false,
+                    "BirthText": "{{i18n:Dragon.BirthText}}",
+                    "DaysToMature": "14",
+                    "HarvestType": "DigUp",
+                    "BabyTexture": "Mods/EveriasDragonsExtended/Dragons/Forest/Baby"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Shadow Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Shadow",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Lavender Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Lavender",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Crimson Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Crimson",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Violet Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Violet",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Rose Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Rose",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Emerald Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Emerald",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Aqua Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Aqua",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Saffron Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Saffron",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Chocolate Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Chocolate",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Chestnut Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Chestnut",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Sea Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Blue",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "TargetField": [
+                "Forest Dragon",
+                "DeluxeProduceItemIds"
+            ],
+            "Entries": {
+                "Dragon_Egg": {
+                    "Id": "Dragon_Egg",
+                    "ItemId": "{{ModId}}_DragonEgg.Forest",
+                    "Condition": "RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Fields": {
+                "Shadow Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Lavender Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Crimson Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Violet Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Rose Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Emerald Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Aqua Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Saffron Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Chocolate Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Chestnut Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Sea Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                },
+                "Forest Dragon": {
+                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "PurchasePrice": -1,
+                    "SellPrice": 18000
+                }
+            },
+            "When": {
+                "HasMod": "mytigio.dwarven_expansion"
+            }
+        }
+    ]
+}

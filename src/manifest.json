@@ -5,7 +5,7 @@
 	"Description": "Adds Dragon Eggs, new production and fixes minor bugs for Everia's Dragons.",
 	"UniqueID": "mytigio.everias_dragons_expanded",
 	"MinimumApiVersion": "2.11.2",
-	"UpdateKeys": ["Nexus:???"],
+	"UpdateKeys": ["Nexus:24317"],
 	"Dependencies": [
 		{
 			"UniqueID": "Renesh.EveriaDragons",

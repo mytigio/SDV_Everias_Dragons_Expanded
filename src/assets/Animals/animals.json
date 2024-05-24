@@ -407,62 +407,62 @@
             "Target": "Data/FarmAnimals",
             "Fields": {
                 "Shadow Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Lavender Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Crimson Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Violet Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Rose Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Emerald Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Aqua Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Saffron Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Chocolate Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Chestnut Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Sea Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 },
                 "Forest Dragon": {
-                    "House": "mytigio.dwarven_expansion_LargeCavern",
+                    "House": "{{DragonHouse}}",
                     "PurchasePrice": -1,
                     "SellPrice": 18000
                 }

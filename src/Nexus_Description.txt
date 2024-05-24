@@ -18,7 +18,7 @@ Fixes a bug with the textures in Everia's Dragons, which should resolve freezing
 [size=5]Compatability with Dwarven Expansion[/size]
 If you have my other mod ([url=https://www.nexusmods.com/stardewvalley/mods/22021?tab=files]Dwarven Expansion[/url]), this mod has several additional features, but is not required:
 
-Dragons go in the Cavern instead of a normal Barn.
+Dragons go in the Cavern instead of a normal Barn if you choose (config option to make the Cavern their default home.  Otherwise they can go in either Barn or Cavern.)
 Dragons can be birthed from Dragon Eggs in Caverns.
 Dragons are no longer sold at Marnie's.  Instead you can find Dragon Eggs occasionally for sale at the Adventurer's Guild which can then be hatched in a Cavern.
 Dragon Eggs can be used to create decorative faberge egg in the Jewelry Maker.

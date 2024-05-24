@@ -1,5 +1,27 @@
 {
     "Format": "2.0.0",
+    "ConfigSchema": {
+        "MoveDragonsToCavern": {
+            "AllowValues": "true, false",
+            "AllowMultiple": false,
+            "AllowBlank": false,
+            "Default": "false"
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "DragonHouse",
+            "Value": "Barn"
+        },
+        {
+            "Name": "DragonHouse",
+            "Value": "mytigio.dwarven_expansion_LargeCavern",
+            "When": {
+                "MoveDragonsToCavern": "true",
+                "HasMod": "mytigio.dwarven_expansion"
+            }
+        }
+    ],
     "Changes": [
         {
             "Action": "Include",

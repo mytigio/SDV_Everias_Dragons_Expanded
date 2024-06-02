@@ -6,6 +6,12 @@
             "AllowMultiple": false,
             "AllowBlank": false,
             "Default": "false"
+        },
+        "DragonPurchasePriceWhenUsingDwarvenExpansion": {
+            "AllowValues": "-1, 11500, 18000, 36000",
+            "AllowMultiple": false,
+            "AllowBlank": false,
+            "Default": "-1"
         }
     },
     "DynamicTokens": [

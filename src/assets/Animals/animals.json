@@ -408,7 +408,7 @@
             "Fields": {
                 "Shadow Dragon": {
                     "House": "{{DragonHouse}}",
-                    "PurchasePrice": -1,
+                    "PurchasePrice": "{{DragonPurchasePriceWhenUsingDwarvenExpansion}}",
                     "SellPrice": 18000
                 },
                 "Lavender Dragon": {

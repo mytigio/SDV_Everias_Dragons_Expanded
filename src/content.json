@@ -43,6 +43,10 @@
         },
         {
             "Action": "Include",
+            "FromFile": "assets/Objects/recipes.json"
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/Shops/shops.json"
         }
     ]
